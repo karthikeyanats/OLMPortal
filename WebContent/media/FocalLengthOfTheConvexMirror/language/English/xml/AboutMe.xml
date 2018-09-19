@@ -1,0 +1,42 @@
+﻿<about_product size='14' color='0x000000'>
+
+<window_title color='0xFFFFFF' bold='true'>About product</window_title>
+
+<group align='right'>
+<name_of_experment_label>Name of experiment :</name_of_experment_label>
+<release_version_label>Release version :</release_version_label>
+<functionality_label>Functionality :</functionality_label>
+<resoulation_label>Best Resolution :</resoulation_label>
+</group>
+
+
+
+
+
+
+
+<!--                  ABOUT ME ANSWERS               -->
+<group align='left'>
+<name_of_experment_text>Focal length of Convex mirror</name_of_experment_text>
+<release_version_text>3.1</release_version_text>
+<resoulation_text>1024*768</resoulation_text>
+<functionality_text>
+
+<![CDATA[
+1.The focal length of a convex mirror is determined in this experiment. A convex lens of known focal length is used.
+2.The convex lens  is used to get a real and enlarged image.
+3.The convex mirror is introduced between the screen and convex lens to get a well defined image by the side of the object.
+4.The distance between the screen and convex mirror gives the radius of curvature of the convex mirror
+5.The focal length of the convex mirror is obtained by dividing the value of radius of curvature by two.
+6.The readings of the metre scale are magnified at required points.
+7. The image on the screen is also zoomed and shown separately to make the adjustments easy.
+8.Help option suggests what the student has to do next in case he is struck in the process.
+8.Audio support to guide the students during the simulation process.
+9.Alert message cautions the students when any of his/her action does not fit with the procedure to be followed.
+10.Student can record their simulation data using the Record data option.
+11.The recorded data can be retrieved at any time using Retrieve data option.		
+]]>
+</functionality_text>
+</group>
+
+</about_product>

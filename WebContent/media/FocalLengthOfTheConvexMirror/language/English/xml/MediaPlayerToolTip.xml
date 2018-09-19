@@ -1,0 +1,17 @@
+<root>
+<group color='0x000000'  bold='true' align='center' size='12'>
+
+<play>play</play>
+<replay>Replay</replay>
+
+<pause>Pause</pause>
+
+</group>
+
+<group color='0xFFFFFF'  bold='true' align='center' size='12'>
+
+<showText>Show text</showText>
+
+<hideText>Hide text</hideText>
+</group>
+</root>

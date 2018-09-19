@@ -1,0 +1,10 @@
+﻿<root>
+<op id="100" show="true">Maximum limit exceeded</op>
+<op id="101" show="true">You have selected the wrong option</op>
+<op id="102" show="true">
+<![CDATA[Error due to any one of the following reasons:
+a. Selection of wrong equipment
+b. Deviation from procedure.]]></op>
+<op id="103" show="true">Click on the Test List icon to select the Test</op>
+<op id="104" show="true">Select the Test</op>
+</root>

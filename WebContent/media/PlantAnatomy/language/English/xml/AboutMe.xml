@@ -1,0 +1,44 @@
+﻿<about_product size='14' color='0x000000'>
+
+<window_title color='0xFFFFFF' bold='true'>About product</window_title>
+
+<group align='right'>
+<name_of_experment_label>Name of experiment :</name_of_experment_label>
+<release_version_label>Release version :</release_version_label>
+<functionality_label>Functionality :</functionality_label>
+<resoulation_label>Resolution :</resoulation_label>
+</group>
+
+
+
+
+
+
+
+<!--                  ABOUT ME ANSWERS               -->
+<group align='left'>
+
+<name_of_experment_text>To prepare plant anatomy temporary slide </name_of_experment_text>
+
+<release_version_text>4.1</release_version_text>
+
+<resoulation_text>1024*768</resoulation_text>
+
+<functionality_text>
+
+<![CDATA[
+1.Plant anatomy temporary slide Preparation is studied in this experiment .
+
+2.Instructions with demo are provided to help the students on how to proceed with the experiment.
+
+3.The requirements for conducting the experiment are provided as tabs where by, the user need to click and drag the necessary tools.
+
+4.On the spot clarifications on proceeding with the steps in the experiment can be done by clicking on the help button.
+
+5.Once the user has completed the experiment, he can review the experiment with the help of multiple choice questions provided at the end of the procedure.
+
+]]>
+</functionality_text>
+</group>
+
+</about_product>

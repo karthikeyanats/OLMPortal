@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<METADATA coursecode="" topiccode="" mediafilename="Properties_Of_Base_Layout" titlename="Properties Of Base" language="English" duration="" /> 
+	<Activity direction="ltr"> 
+		<Audio>
+			<Content audiopath="audio_1.mp3" audiotext="Welcome students to the experiment, Properties of Base - system guided learning session."></Content>
+			<Content audiopath="audio_2.mp3" audiotext="In this session you will be guided to;"></Content>
+			<Content audiopath="audio_3.mp3" audiotext="Navigate through the layout features of this screen."></Content>
+			<Content audiopath="audio_4.mp3" audiotext="These details should equip you with the knowledge, essential to perform the experiment effectively."></Content>
+			<Content audiopath="audio_5.mp3" audiotext="The top right segment of the screen displays the names of the four tests which you have to perform to complete this experiment."></Content>
+			<Content audiopath="audio_6.mp3" audiotext="In the welcome screen the demo icon prompts you to click on it first."></Content>
+			<Content audiopath="audio_7.mp3" audiotext="If you click anywhere else on the screen, this prompt disappears and another prompt appears to select a test."></Content>
+			<Content audiopath="audio_8.mp3" audiotext="When you select a test by clicking on it, this prompt disappears and is replaced by the name of the test selected."></Content>
+			<Content audiopath="audio_9.mp3" audiotext="The top left segment of the screen has the Introduction, Procedure and Observation tabs."></Content>
+			<Content audiopath="audio_10.mp3" audiotext="By default the Introduction tab is selected."></Content>
+			<Content audiopath="audio_11.mp3" audiotext="The objective of this experiment can be seen above the introduction."></Content>
+			<Content audiopath="audio_12.mp3" audiotext="Click on the Procedure tab to learn how to perform a test."></Content>
+			<Content audiopath="audio_13.mp3" audiotext="If you have selected a test, the procedure pertaining to that test alone is displayed."></Content>
+			<Content audiopath="audio_14.mp3" audiotext="If you have not selected any test, the procedures for all the tests are displayed."></Content>
+	            <Content audiopath="audio_15.mp3" audiotext="Under Observation tab, you can view the observation pertaining to this experiment."></Content>
+                  <Content audiopath="audio_16.mp3" audiotext="The experiment is performed on the top right segment of the screen referred as the work area."></Content>
+                  <Content audiopath="audio_17.mp3" audiotext="By clicking on the Minimize button, next to the Observation tab, all the tabs can be minimized, there by maximizing the work area."></Content>
+                  <Content audiopath="audio_18.mp3" audiotext="In this maximized work area, the procedure can be viewed on the top, in a scrollable screen, which the student can refer while performing the experiment."></Content>
+                  <Content audiopath="audio_19.mp3" audiotext="The lower segment of the screen which is referred as the Lab Equipment Storage area has the Lab equipments, needed for the experiment."></Content>
+                  <Content audiopath="audio_20.mp3" audiotext="In the Lab Equipment Storage area, you can locate a row of icons."></Content>
+                  <Content audiopath="audio_21.mp3" audiotext="They are Notepad, Fill and Assemble icons."></Content>
+                  <Content audiopath="audio_22.mp3" audiotext="Icons which are not applicable to this experiment are disabled."></Content>
+                  <Content audiopath="audio_23.mp3" audiotext="We will discuss only about those icons which are applicable to this experiment."></Content>
+                  <Content audiopath="audio_24.mp3" audiotext="After you have successfully completed a test, click on the Note pad icon."></Content>
+                  <Content audiopath="audio_25.mp3" audiotext="The Notepad screen appears which displays the test which you have completed just now, the observation and inference selected by you."></Content>
+                  <Content audiopath="audio_26.mp3" audiotext="You can submit your answer by clicking on the submit icon at the bottom of this screen."></Content>
+                  <Content audiopath="audio_27.mp3" audiotext="If your answer is correct a green tick mark appears against that answer."></Content>
+                  <Content audiopath="audio_28.mp3" audiotext="A message screen appears below the submit button, to save or not to save this answer."></Content>
+                  <Content audiopath="audio_29.mp3" audiotext="If you click 'Yes' the answer is stored in the server which can be retrieved later."></Content>
+                  <Content audiopath="audio_30.mp3" audiotext="If you click 'No' the answer is not stored in the server and hence cannot be retrieved later."></Content>
+                  <Content audiopath="audio_31.mp3" audiotext="If the answer is incorrect a red incorrect symbol appears against that answer."></Content>
+                  <Content audiopath="audio_32.mp3" audiotext="A description will show why that answer is incorrect."></Content>
+                  <Content audiopath="audio_33.mp3" audiotext="If one or more answers are incorrect, a message at the bottom of the screen indicates that some of the answers are incorrect."></Content>
+                  <Content audiopath="audio_34.mp3" audiotext="You have to redo these tests to complete this experiment."></Content>
+                  <Content audiopath="audio_35.mp3" audiotext="While you perform the tests you may have to transfer a liquid or solid from one apparatus to another."></Content>
+                  <Content audiopath="audio_36.mp3" audiotext="The fill option is enabled to facilitate this transfer."></Content>
+                  <Content audiopath="audio_37.mp3" audiotext="Click on the Fill icon and transfer the required quantity of the solid or liquid from one apparatus to another."></Content>
+                  <Content audiopath="audio_38.mp3" audiotext="The Fill screen and other popup screens pertaining to this demo are movable and can be positioned anywhere on the work area."></Content>
+                  <Content audiopath="audio_39.mp3" audiotext="The Assemble icon enables assembling the apparatus as needed for the experiment."></Content>
+                  <Content audiopath="audio_40.mp3" audiotext="Select the apparatus to be assembled and click on the Assemble icon."></Content>
+                  <Content audiopath="audio_41.mp3" audiotext="You can view an animation of the apparatus being assembled."></Content>
+                  <Content audiopath="audio_42.mp3" audiotext="On the right side of the Lab Equipment storage area, you can view tabs titled as Acids, Apparatus, Bases, Solutions and Substances."></Content>
+                  <Content audiopath="audio_43.mp3" audiotext="When you click on the Apparatus tab, the available apparatus appear in the lab equipment storage area."></Content>
+                  <Content audiopath="audio_44.mp3" audiotext="You can drag the required apparatus from the Lab equipment Storage area and drop it on the work area."></Content>
+                  <Content audiopath="audio_45.mp3" audiotext="The selected apparatus can be removed by dragging it from the work area and dropping it in the Lab equipment Storage area."></Content>
+                  <Content audiopath="audio_46.mp3" audiotext="If you are about to drag the inappropriate lab equipment, an alert message appears to warn you that the step is incorrect."></Content>
+                  <Content audiopath="audio_47.mp3" audiotext="In case you are about to drag and drop the same equipment twice, an alert message appears to hint that you have already completed this step."></Content>
+                  <Content audiopath="audio_48.mp3" audiotext="You can locate, Test list, Store, Retrieve, Reset, About me and Demo icons on the top of the Lab Equipments storage area."></Content>
+                  <Content audiopath="audio_49.mp3" audiotext="When you click on Test list icon, a list of the tests to be performed appear in the work area."></Content>
+                  <Content audiopath="audio_50.mp3" audiotext="Click on the name of a test to select and perform."></Content>
+                  <Content audiopath="audio_51.mp3" audiotext="Click on the Store icon to record the experimentally derived data."></Content>
+                  <Content audiopath="audio_52.mp3" audiotext="The recorded data can be retrieved by clicking on the Retrieve icon."></Content>
+                  <Content audiopath="audio_53.mp3" audiotext="Click on Reset to clear the work area, enabling you to begin the simulation from the beginning."></Content>
+                  <Content audiopath="audio_54.mp3" audiotext="Click on About me to know the name of the experiment, experiment version, objective and the best screen resolution."></Content>
+                  <Content audiopath="audio_55.mp3" audiotext="You can view demos on the screen features of this application and how to perform this experiment by clicking on Demo."></Content>
+                  <Content audiopath="audio_56.mp3" audiotext="These demos will illustrate the screen features of this application and also will guide you how to perform this experiment using model data."></Content>
+                  <Content audiopath="audio_57.mp3" audiotext="The learning session ends here."></Content>
+                  <Content audiopath="audio_58.mp3" audiotext="Hope this learning session was interesting and also provided you the information you were looking for on the layout features of the screen pertaining to the experiment Properties of Base."></Content>
+
+                  <Content audiopath="audio_59.mp3" audiotext="Hope this learning session was interesting and also provided you the information you were looking for on the layout features of the screen pertaining to the experiment Properties of Base."></Content>
+
+		</Audio>
+		
+	</Activity>
+</root>

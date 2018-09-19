@@ -1,0 +1,63 @@
+#!/bin/sh
+# chkconfig: 2345 95 20
+
+scriptFile=$(readlink -fn $(type -p $0))                  
+scriptDir=$(dirname $scriptFile)                          
+applDir="$scriptDir"                                      
+serviceName="Scrutinize"                              
+serviceNameLo="scrutinize"                            
+rcFileBaseName="rc$serviceNameLo"
+directory="$scriptDir"
+jre=$(readlink -f $(which java))
+application="observe.win"
+log="$scriptDir/logfile.log"
+pidfile="$scriptDir/observeid.pid"
+rcFileName="/usr/local/sbin/$rcFileBaseName"              
+etcInitDFile="/etc/init.d/$serviceNameLo"
+mylog="$scriptDir/customlog"
+                 
+
+function startService {
+	cd $directory
+	nohup $jre -jar $application >>$log 2>&1 & echo $! > $pidfile
+}
+
+function installService {
+   ln -s $scriptFile $rcFileName || return 1
+   ln -s $scriptFile $etcInitDFile || return 1
+   chkconfig --add $serviceNameLo
+   chkconfig --level 2345 $serviceNameLo on
+   return 0; 
+}
+
+function uninstallService {
+   chkconfig --level 2345 $serviceNameLo off
+   chkconfig --del $serviceNameLo
+   rm -f $rcFileName
+   rm -f $etcInitDFile
+   echo $serviceName uninstalled.
+   return 0; 
+}
+
+function main {   
+   case "$1" in
+      start)                                              
+         echo "Start" >> $mylog
+	 startService
+         ;;
+     install)                                             
+         echo "Install" >> $mylog
+	 installService
+         ;;
+    uins)                                           
+         echo "Uninstall" >> $mylog
+         uninstallService
+         ;;
+     *)
+         echo "Others" >> $mylog
+	 echo "Usage: $0 {start|install}"
+         exit 1
+         ;;
+      esac
+}
+main $1

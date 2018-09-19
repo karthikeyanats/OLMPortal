@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<METADATA coursecode="" topiccode="" mediafilename="Properties_Of_Base_Layout" titlename="Properties Of Base" language="English" duration="" /> 
+	<Activity direction="ltr"> 
+		<Audio>
+			<Content audiopath="audio_1.mp3" audiotext="Welcome students, to the experiment, Properties of base - system guided lab simulation."></Content>
+			<Content audiopath="audio_2.mp3" audiotext="The objective of this experiment is;"></Content>
+			<Content audiopath="audio_3.mp3" audiotext="To study the properties of base by its reaction with;"></Content>
+			<Content audiopath="audio_4.mp3" audiotext="Litmus solution (Blue and Red)"></Content>
+			<Content audiopath="audio_5.mp3" audiotext="Zinc metal,"></Content>
+			<Content audiopath="audio_6.mp3" audiotext="and Hydrochloric acid."></Content>
+			<Content audiopath="audio_7.mp3" audiotext="Let us start our first test - Reaction with Blue Litmus solution."></Content>
+			<Content audiopath="audio_8.mp3" audiotext="In the list of tests that are displayed, click on Reaction with Blue Litmus solution."></Content>
+			<Content audiopath="audio_9.mp3" audiotext="Click on the Minimize icon next to the Observation tab to minimize the tabs and maximize the work area."></Content>
+			<Content audiopath="audio_10.mp3" audiotext="The procedure pertaining to this test can be viewed on the top, in a scrollable screen."></Content>
+			<Content audiopath="audio_11.mp3" audiotext="To begin with click on the Bases tab to display the Sodium hydroxide bottle."></Content>
+			<Content audiopath="audio_12.mp3" audiotext="Drag the Sodium hydroxide bottle from the Lab equipment storage area and drop it on the work area."></Content>
+			<Content audiopath="audio_13.mp3" audiotext="Click on the Solutions tab to display the available solutions."></Content>
+			<Content audiopath="audio_14.mp3" audiotext="Drag the Blue litmus solution to the work area."></Content>
+	            <Content audiopath="audio_15.mp3" audiotext="Subsequently click on the Apparatus tab to display the available apparatus."></Content>
+                  <Content audiopath="audio_16.mp3" audiotext="Drag the dropper to the work area."></Content>
+                  <Content audiopath="audio_17.mp3" audiotext="Next, drag the test tube stand to the work area."></Content>
+                  <Content audiopath="audio_18.mp3" audiotext="Click on a test tube to release it from the test tube stand."></Content>
+                  <Content audiopath="audio_19.mp3" audiotext="Select the Blue litmus solution and click on the Fill icon."></Content>
+                  <Content audiopath="audio_20.mp3" audiotext="In the Fill screen that appears, select 2 ml and click OK."></Content>
+                  <Content audiopath="audio_21.mp3" audiotext="Bring the test tube close to the Blue litmus solution."></Content>
+                  <Content audiopath="audio_22.mp3" audiotext="You can observe that 2ml of the Blue litmus solution has been transferred to the test tube."></Content>
+                  <Content audiopath="audio_23.mp3" audiotext="Insert the mouth of the dropper into the Sodium hydroxide bottle and click on the knob."></Content>
+                  <Content audiopath="audio_24.mp3" audiotext="You can observe that Sodium hydroxide solution is transferred up to the mark in the dropper."></Content>
+                  <Content audiopath="audio_25.mp3" audiotext="Now insert the mouth of the dropper into the test tube."></Content>
+                  <Content audiopath="audio_26.mp3" audiotext="Click on the knob of the dropper."></Content>
+                  <Content audiopath="audio_27.mp3" audiotext="You can observe that Sodium hydroxide solution is transferred into the test tube."></Content>
+                  <Content audiopath="audio_28.mp3" audiotext="Click on the test tube to shake it vigorously."></Content>
+                  <Content audiopath="audio_29.mp3" audiotext="Observe the changes."></Content>
+                  <Content audiopath="audio_30.mp3" audiotext="Click on the test tube again."></Content>
+                  <Content audiopath="audio_31.mp3" audiotext="The Observation screen appears."></Content>
+                  <Content audiopath="audio_32.mp3" audiotext="Select an observation."></Content>
+                  <Content audiopath="audio_33.mp3" audiotext="If you select a wrong option, an alert message appears that you have selected a wrong option."></Content>
+                  <Content audiopath="audio_34.mp3" audiotext="Close the alert message by clicking on the OK button."></Content>
+                  <Content audiopath="audio_35.mp3" audiotext="Select the correct observation."></Content>
+                  <Content audiopath="audio_36.mp3" audiotext="After you have selected the correct observation, the Inference screen appears."></Content>
+                  <Content audiopath="audio_37.mp3" audiotext="Select an inference based on your observation."></Content>
+                  <Content audiopath="audio_38.mp3" audiotext="The inference screen disappears after you have selected an Inference."></Content>
+                  <Content audiopath="audio_39.mp3" audiotext="The screen is automatically reset and the test list appears in the work area."></Content>
+                  <Content audiopath="audio_40.mp3" audiotext="Click on the Note pad icon to display the Note pad screen."></Content>
+                  <Content audiopath="audio_41.mp3" audiotext="In the Note pad screen you can view your observation and inference against the test which you have completed just now."></Content>
+                  <Content audiopath="audio_42.mp3" audiotext="Below this, you can view the submit button."></Content>
+                  <Content audiopath="audio_43.mp3" audiotext="Click on the submit button to submit your answer."></Content>
+                  <Content audiopath="audio_44.mp3" audiotext="If your answer is correct, a green tick mark appears against that test."></Content>
+                  <Content audiopath="audio_45.mp3" audiotext="If your answer is incorrect, a red incorrect symbol appears against that test."></Content>
+                  <Content audiopath="audio_46.mp3" audiotext="You may refer to the layout demo to learn about this functionality."></Content>
+                  <Content audiopath="audio_47.mp3" audiotext="Now we will proceed to do the next test."></Content>
+                  <Content audiopath="audio_48.mp3" audiotext="Close the Note pad screen by clicking on the close button on the top right side of the screen."></Content>
+                  <Content audiopath="audio_49.mp3" audiotext="Click on the name of another test to select."></Content>
+                  <Content audiopath="audio_50.mp3" audiotext="The scrollable screen on the top now displays the procedure for the test which you have selected."></Content>
+                  <Content audiopath="audio_51.mp3" audiotext="You have to complete this and the other tests successfully to complete this experiment."></Content>
+                  <Content audiopath="audio_52.mp3" audiotext="This screen shows a situation where you have completed three tests successfully and you are about to submit your answer for the fourth test."></Content>
+                  <Content audiopath="audio_53.mp3" audiotext="Click on the submit button."></Content>
+                  <Content audiopath="audio_54.mp3" audiotext="."></Content>
+                  <Content audiopath="audio_55.mp3" audiotext="Hope this learning session was interesting and also enabled you to learn the properties of base by its reaction with Litmus solutions, Zinc metal and Hydrochloric acid."></Content>
+                  <Content audiopath="audio_56.mp3" audiotext="Hope this learning session was interesting and also enabled you to learn the properties of base by its reaction with Litmus solutions, Zinc metal and Hydrochloric acid."></Content>
+                
+		</Audio>
+		
+	</Activity>
+</root>

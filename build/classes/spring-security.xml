@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+     http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+	<!-- Spring Security Setup -->
+
+	<http auto-config="true" use-expressions="true"> 
+		<intercept-url pattern="/index" access="isAnonymous()" />		 		
+		<intercept-url pattern="/rest/social/facebook" access="isAnonymous()" />
+		<custom-filter ref="ajaxTimeoutRedirectFilter"  after="EXCEPTION_TRANSLATION_FILTER"/>
+		<intercept-url pattern="/app/**" access="isAuthenticated()" />		
+		<custom-filter ref="socialAuthenticationFilter" before="PRE_AUTH_FILTER" />
+		<form-login login-page='/index' always-use-default-target="true"
+			authentication-success-handler-ref="successHandler"
+			authentication-failure-handler-ref="authenticationFailureHandler" />
+		<logout logout-url="/logout" logout-success-url="/index"
+			delete-cookies="JSESSIONID" />
+		<remember-me key="uniqueAndSecret" token-validity-seconds="86400" />
+		<!-- <session-management invalid-session-url="/sessionexpired"
+			session-authentication-error-url="/login.jsp?error=alreadyLogin">
+			<concurrency-control max-sessions="1"
+				expired-url="/login.jsp?error=sessionExpiredDuplicateLogin"
+				error-if-maximum-exceeded="false" />
+		</session-management>   -->
+	</http>
+	<!-- Specify a simple property based authentication provider. For production 
+		systems switch to LDAP or JDBC based providers. -->
+	<authentication-manager alias="authenticationManager">
+		<authentication-provider user-service-ref='userDetailsService' />
+		<!-- <password-encoder ref="bCryptPasswordEncoder"/> -->
+		<authentication-provider ref="socialAuthenticationProvider" />
+
+	</authentication-manager>
+
+	<beans:bean id="socialAuthenticationFilter"
+		class="org.springframework.social.security.SocialAuthenticationFilter">
+		<beans:constructor-arg index="0"
+			ref="authenticationManager" />
+		<beans:constructor-arg index="1" ref="userIdSource" />
+		<beans:constructor-arg index="2"
+			ref="usersConnectionRepository" />
+		<beans:constructor-arg index="3"
+			ref="connectionFactoryLocator" />
+
+		<!-- Sets the url of the registration form. -->
+		<beans:property name="signupUrl" value="/index?error=invalidsocialuser" />
+		<beans:property name="defaultFailureUrl" value="/index?error=invalidsocialuser" />
+		<beans:property name="postLoginUrl" value="/app/mycourses" />
+		<!-- <beans:property name="authenticationFailureHandler" ref="authenticationFailureHandler" 
+			/> -->
+	</beans:bean>
+
+	<beans:bean id="socialAuthenticationProvider"
+		class="org.springframework.social.security.SocialAuthenticationProvider">
+		<beans:constructor-arg index="0"
+			ref="usersConnectionRepository" />
+		<beans:constructor-arg index="1"
+			ref="socialUserDetailsService" />
+	</beans:bean>
+
+	<beans:bean id="userIdSource"
+		class="org.springframework.social.security.AuthenticationNameUserIdSource" />
+
+	<beans:bean id="socialUserDetailsService"
+		class="com.igrandee.product.ecloud.config.SocialUserDetailsService" />
+
+	<beans:bean id="successHandler"
+		class="com.igrandee.product.ecloud.session.SuccessHandler" />
+	<beans:bean id="userDetailsService"
+		class="com.igrandee.product.ecloud.session.SessionDetail" />
+	<beans:bean id="loggerListener"
+		class="org.springframework.security.authentication.event.LoggerListener" />
+
+	<beans:bean id="ajaxTimeoutRedirectFilter"
+		class="com.igrandee.product.ecloud.session.AjaxTimeoutRedirectFilter">
+		<beans:property name="customSessionExpiredErrorCode"
+			value="901" />		
+	</beans:bean>
+
+
+	<global-method-security proxy-target-class="false"></global-method-security>
+</beans:beans>

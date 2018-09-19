@@ -1,0 +1,76 @@
+<QA>
+	<rows>3</rows>
+	<columns>3</columns>
+	<numofsquares>7</numofsquares>
+	<eyesx>650</eyesx>
+	<eyesy>0</eyesy>
+	<eyeswidth>25</eyeswidth>
+	<eyesheight>25</eyesheight>
+	
+	<Headings>
+		<mainqnhead>Pick your Question</mainqnhead>
+		<qnhead>Question</qnhead>
+		<anshead>Answer</anshead>
+		<fontsize>11</fontsize>
+	</Headings>
+	
+	<Questions>
+		<q><![CDATA[1.In a closely compacted mass, individual parenchyma cells average ______ faces.
+a) 6
+b) 14
+c) 18]]></q>
+		<a><![CDATA[b) 14]]></a>
+
+
+		<q><![CDATA[2.Collenchyma cells with thickened walls adjacent to intercellular spaces is termed as
+a) angular	
+b) annular	
+c) lacunar ]]></q>
+		<a><![CDATA[c) lacunar]]></a>
+
+
+		<q><![CDATA[3.A feature associated with parenchyma cells:
+a) small or no vacuoles
+b) a highly elongated cellular axis
+c) totipotency ]]></q>
+		<a><![CDATA[c) totipotency]]></a>
+
+
+		<q><![CDATA[4.Closed vascular bundles are found in:
+a) gymnosperms
+b) dicots
+c) monocots]]></q>
+		<a><![CDATA[c) monocots]]></a>
+
+
+		<q><![CDATA[5.A bicollateral vascular bundle:
+a) has phloem on both sides of the xylem
+b) has xylem on both sides of the phloem
+c) is represented by the fusion of two vascular bundles ]]></q>
+		<a><![CDATA[a) has phloem on both sides of the xylem.]]></a>
+
+
+		<q><![CDATA[6.Cell walls of collenchyma cells are flexible due to :
+a) their elastic nature due to contractile proteins
+b) irregular secondary thickenings
+c) a helicoidal arrangement of cellulose microfibrils ]]></q>
+		<a><![CDATA[c) a helicoidal arrangement of cellulose microfibrils.]]></a>		
+
+
+		<q><![CDATA[7.Why safranin stain is used as counter stain?  ]]></q>
+		<a><![CDATA[Safranin is used as a counterstain in some staining protocols,since it colours all cell nuclei red  ]]></a>		
+
+
+		<q><![CDATA[8.	 ]]></q>
+		<a><![CDATA[	 ]]></a>		
+
+
+		<q><![CDATA[9.		 ]]></q>
+		<a><![CDATA[		 ]]></a>		
+
+
+		<q><![CDATA[10.  ]]></q>
+		<a><![CDATA[     ]]></a>		
+	</Questions>
+
+</QA>

@@ -1,0 +1,65 @@
+<decorators defaultdir="/WEB-INF/decorators">
+	<excludes>	    	
+	       	<pattern>/withoutCourseSignUp</pattern>
+	      	<pattern>/connect/facebook</pattern> 
+	    	<pattern>/signin/facebook</pattern>	        	
+	    	<pattern>/WEB-INF/content/app/admin/course/masteradminreg.jsp</pattern> 
+		    <pattern>/WEB-INF/content/app/user/courseSubscribe.jsp</pattern>
+		    <pattern>/ecloudindex.jsp</pattern>
+		     
+	</excludes>    	     
+ 
+	<decorator name="admin" page="decorator.jsp">
+		<excludes> 
+		    <pattern>/PaymentGateway/checkout.jsp</pattern> 
+		     		    
+  	        <pattern>/WEB-INF/content/app/organization/Organization.jsp</pattern>  	        
+  	        <pattern>/WEB-INF/content/app/organization/suborganization.jsp</pattern> 	   
+ 		    <pattern>/WEB-INF/content/app/admin/course/masteradminreg.jsp</pattern> 
+		    <pattern>/WEB-INF/content/app/user/courseSubscribe.jsp</pattern> 
+			<pattern>/app/*</pattern>
+			<pattern>/exammanagement/selfassessment/self_assessment.jsp</pattern>
+			<pattern>/exammanagement/student/ExamInstructionNew.jsp</pattern>
+			<pattern>/exammanagement/student/Result_window_new.jsp</pattern>
+			<pattern>/exammanagement/exam/Suggestion.jsp</pattern>
+			<pattern>/rest/questions</pattern>
+		</excludes>
+		<pattern>/categories</pattern>
+		<pattern>/browse</pattern>
+ 		<pattern>/ssearchresult</pattern>
+ 		<pattern>/preview</pattern> 
+		<pattern>/browsecourse</pattern>
+		<pattern>/createorganization</pattern>
+		<pattern>/createorganizationview</pattern> 
+		<pattern>/suborganization</pattern> 
+		<pattern>/blogs</pattern>    
+		<pattern>/blogspage</pattern> 
+		<pattern>/socialusers.jsp</pattern>
+		<pattern>/sessionexpired</pattern>
+		<pattern>/previewguest</pattern>
+		<pattern>/authorsearch</pattern>
+		<pattern>/authorProfile</pattern>
+		<pattern>/contact</pattern>
+  	</decorator>
+	  
+	<decorator name="main" page="main.jsp">  
+ 		<excludes> 
+    		<pattern>/WEB-INF/content/app/admin/course/masteradminreg.jsp</pattern> 		    
+ 		    <pattern>/WEB-INF/content/app/user/courseSubscribe.jsp</pattern>
+ 		    <pattern>/exammanagement/selfassessment/self_assessment.jsp</pattern>
+			<pattern>/exammanagement/student/ExamInstructionNew.jsp</pattern>
+			<pattern>/exammanagement/student/Result_window_new.jsp</pattern>
+ 			<pattern>/exammanagement/exam/Suggestion.jsp</pattern>
+ 		</excludes> 
+ 		<pattern>/app/*</pattern>  
+   		<pattern>/PaymentGateway/checkout.jsp</pattern> 
+  		<pattern>/PaymentGateway/plancheckout.jsp</pattern> 
+  		<pattern>/PaymentGateway/licensecheckout.jsp</pattern>
+  		<pattern>/PaymentGateway/giftcoursecheckout.jsp</pattern>     		
+ 		<pattern>/exammanagement/*</pattern>   
+		<pattern>/blogupdate</pattern>	
+		<pattern>/learntobrowse</pattern>
+			
+ 	</decorator> 	
+ 	
+</decorators>             

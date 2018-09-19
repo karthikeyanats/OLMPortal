@@ -1,0 +1,20 @@
+<Alerts>
+<op id="1" show="true" heading="Success...!" body="Experiment saved successfully."/>
+
+<op id="2" show="true" heading="Failure...!" body="Error occured while saving your experiment. Please try again after some time."/>
+
+<op id="3" show="true" heading="Failure...!" body="XML file loading failure. File is not well-formed"/>
+
+<op id="4" show="true" heading="Saving...!" body="Please wait while saving your experiment..."/>
+
+<op id="5" show="true" heading="Loading...!" body="Please wait while loading your experiment..."/>
+
+<op id="6" show="true" heading="IO Error...!" body="URL not found for saving. Please contact your administrator."/>
+
+<op id="7" show="true" heading="IO Error...!" body="URL not found for loading. Please contact your administrator."/>
+
+<op id="8" show="true" heading="Security error...!" body="Accessing of other domain. please contact your administrator."/>
+
+<op id="9" show="true" heading="Success...!" body="Experiment loaded successfully."/>
+
+</Alerts>

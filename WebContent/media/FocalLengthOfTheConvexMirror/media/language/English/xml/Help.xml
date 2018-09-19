@@ -1,0 +1,35 @@
+﻿<help size='14' color='0x000000' align='left'>
+
+<!--                  WRITE UR HELP TAGS               -->
+ 
+<step_1>Drag the convex lens from the shelf  to the work area </step_1>
+<step_2> Drag the illuminated object from the shelf to the work area </step_2>
+<step_3> Drag the Screen from the shelf to the work area and switch on the bulb inside the object box. (click the mouse on the switch)</step_3>
+<step_4>Drag the Scale from the shelf to the work area</step_4>
+<step_5>Adjust the distance between the convex lens and illuminated object to be 26 cm.</step_5>
+<step_6>
+		<![CDATA[<b>*</b>Adjust the distance between the screen and convex lens to get a well defined image.<br>
+<b>*</b>Move the scale to measure the distance between the convex lens and screen.<br>
+<b>*</b>Click on the Table and enter the readings. 
+]]>
+</step_6>
+<step_7><![CDATA[<b>*</b> Click next. Now convex mirror is enabled.<br>
+<b>*</b>Bring the convex mirror from the shelf to the work area and place it between the convex lens and screen.<br>
+<b>*</b>Adjust the convex mirror alone to get a well defined image by the side of the object itself<br>
+<b>*</b>Measure the distance between screen and the convex mirror which is the radius of curvature of the convex mirror<br>
+<b>*</b>Enter it in the table and check.
+]]>
+
+</step_7>
+
+<step_8> Click previous button and repeat the experiment keeping the distance between convex lens and illuminated object to be 28 cm and 30 cm.</step_8>
+<step_9><![CDATA[
+<b>*</b>Find the mean value of the radius of curvature R.<br>
+<b>*</b>The focallength of the convex mirror f=R/2.
+
+		]]></step_9>
+
+<step_10>You have successfully calculated the Radius of curvature and focal length of the convex mirror.</step_10>
+
+
+</help>

@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+footer,.navbar-collapse.collapse.in,nav .dropdown-toggle,.decnavbar,.cbp_tmicon {
+	background-color: #8DB87C !important;
+}
+
+.dropdown-menu>li>a {
+	color:#47697E !important;
+}
+
+body {
+	background: #E9F3E0;
+}
+
+.titlecontainer .col-md-12.lefttext > a:not(.btn),.dashbox h3,
+.cbp_tmtimeline>li .cbp_tmlabel,.timespancls{
+	color: #ED8A3F !important;
+}
+thead {
+	background: #ED8A3F !important;
+}
+
+.hover:hover,.hover.active,.count{
+	background-color: #ED8A3F !important;
+	color: white !important;
+}
+
+.leftsideliheader h3,.dashheaderbg {
+	background: #F5D769 !important;
+	color: white !important;
+}
+
+.cbp_tmtimeline>li .cbp_tmicon{
+	box-shadow: 0 0 0 6px #ED8A3F;
+}

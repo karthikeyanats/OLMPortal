@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="false" />
+    
+    <constant name="struts.custom.i18n.resources" value="application" />
+    <constant name="struts.i18n.reload" value="true"/> 
+    <constant name="struts.convention.classes.reload" value="true" />
+    <constant name="struts.convention.exclude.parentClassLoader" value="false" />
+    <constant name="struts.action.extension" value=",,action" />
+    <constant name="struts.locale" value="en_US"/>  
+    <constant name="struts.i18n.encoding" value="UTF-8"/>  
+    <constant name="struts.action.excludePattern" value="/OpenFile*,/rest/.*,/MyPageAction,/PlayFile,/OnlineExamServlet,/QuestionServlet,/ResultServlet,/loginServlet,/publish,/getOnlineUsersList" />  
+	<constant name="struts.objectFactory" value="org.apache.struts2.spring.StrutsSpringObjectFactory" /> 
+	<constant name="struts.multipart.maxSize" value="100485760" />
+	<constant name="struts.convention.action.includeJars" value=".*?/ecloudbaseutil-0.0.1-SNAPSHOT.*?jar(!/)?,.*?/satutil-0.0.1-SNAPSHOT.*?jar(!/)?"/>
+	
+	<!-- <package name="ecloud" namespace="/" extends="struts-default">
+	<action name="crscontentinsertaction" class="com.igrandee.product.ecloud.action.CoursecreationAction" method="courseContentInsert">
+        <interceptor-ref name="exception"/>
+            <interceptor-ref name="i18n"/>
+            <interceptor-ref name="fileUpload">
+       			<param name="allowedTypes">application/vnd.ms-excel,image/jpg,image/png,image/gif</param>  
+       			<param name="maximumSize">500000</param>
+  			</interceptor-ref>   
+        <result name="coursecontentinsert">app/course/ilscoursecreation.jsp</result>
+    </action>
+    </package> -->
+		
+</struts>

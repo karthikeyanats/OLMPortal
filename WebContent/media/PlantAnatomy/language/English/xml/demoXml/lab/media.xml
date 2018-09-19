@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+		<Audio>
+			<Content audiopath="audio_1.mp3" audiotext="Welcome students, to the experiment - 'To prepare plant anatomy temporary slide' - system guided lab simulation."></Content>
+			
+			<Content audiopath="audio_2.mp3" audiotext="The aim of this experiment is;"></Content>
+			
+			<Content audiopath="audio_3.mp3" audiotext="To prepare the plant anatomy temporary slide."></Content>
+			
+			<Content audiopath="audio_4.mp3" audiotext="To begin with drag the specimen to the work area."></Content>
+			
+			<Content audiopath="audio_5.mp3" audiotext="Next, drag the watch glass with water to the work area."></Content>
+			
+			<Content audiopath="audio_6.mp3" audiotext="Drag the blade to the work area."></Content>
+			
+			<Content audiopath="audio_7.mp3" audiotext="Using the blade cut several thin sections of the specimen and transfer them to the watch glass containing water."></Content>
+			
+			<Content audiopath="audio_8.mp3" audiotext="Drag a glass slide to the work area."></Content>
+			
+			<Content audiopath="audio_9.mp3" audiotext="Drag the safranin stain to the work area."></Content>
+			
+			<Content audiopath="audio_10.mp3" audiotext="Drag the dropper to the work area."></Content>
+			
+			<Content audiopath="audio_11.mp3" audiotext="Insert the dropper into the safranin stain and click on the knob."></Content>
+			
+			<Content audiopath="audio_12.mp3" audiotext="You can observe that some amount of safranin stain is drawn into the dropper."></Content>
+			
+			<Content audiopath="audio_13.mp3" audiotext="Move the dropper over the slide and add two drops of safranin stain at the center of the slide."></Content>
+			
+			<Content audiopath="audio_14.mp3" audiotext="Drag the brush to the work area."></Content>
+			
+	                <Content audiopath="audio_15.mp3" audiotext="Using the brush select a thin section of the stem from the watch glass."></Content>
+					
+                        <Content audiopath="audio_16.mp3" audiotext="Place the selected section on the Safranin stain over the glass slide  and leave it undisturbed for two minutes. "></Content>
+						
+                        <Content audiopath="audio_17.mp3" audiotext="Drag a new watch glass with water to the work area."></Content>
+						
+                        <Content audiopath="audio_18.mp3" audiotext="Using the brush transfer the stained section from the glass slide to the watch glass."></Content>
+						
+                        <Content audiopath="audio_19.mp3" audiotext="Drag a new glass slide to the work area."></Content>
+						
+                        <Content audiopath="audio_20.mp3" audiotext="Using the brush transfer the section from the watch glass to the center of the glass slide."></Content>
+						
+                        <Content audiopath="audio_21.mp3" audiotext="Drag the glycerine bottle to the work area."></Content>
+						
+                        <Content audiopath="audio_22.mp3" audiotext="Drag the dropper to the work area."></Content>
+						
+                        <Content audiopath="audio_23.mp3" audiotext="Insert the dropper into the glycerine bottle and click on the knob."></Content>
+						
+                        <Content audiopath="audio_24.mp3" audiotext="You can observe that some amount of glycerine is drawn into the dropper."></Content>
+						
+                        <Content audiopath="audio_25.mp3" audiotext="Add two drops of Glycerine over the section on the glass slide."></Content>
+						
+                        <Content audiopath="audio_26.mp3" audiotext="Drag a cover slip and place it near the section at 45 degree angle."></Content>
+						
+                        <Content audiopath="audio_27.mp3" audiotext="Drag a needle to the work area."></Content>
+						
+                        <Content audiopath="audio_28.mp3" audiotext="Using the needle allow the cover slip to cover the section without forming any air bubble."></Content>
+						
+						<Content audiopath="audio_29.mp3" audiotext="Now the slide is ready for observation under a microscope."></Content>
+						
+                        <Content audiopath="audio_30.mp3" audiotext="Drag the microscope from the shelf area and drop it on the work area."></Content>
+						
+						<Content audiopath="audio_31.mp3" audiotext="Click on the switch of the microscope light."></Content>
+						
+						<Content audiopath="audio_32.mp3" audiotext="Turn the objective to the lowest magnification of 10X. "></Content>
+						
+						<Content audiopath="audio_33.mp3" audiotext="Turn the diaphragm of the microscope completely clockwise to get the maximum light from the light source."></Content>
+						
+						<Content audiopath="audio_34.mp3" audiotext="Click on the clips to open."></Content>
+						
+						<Content audiopath="audio_35.mp3" audiotext="Drag the slide and place it at the center of the stage."></Content>
+						
+						<Content audiopath="audio_36.mp3" audiotext="Click on the clips to hold the glass slide firmly."></Content>
+						
+						<Content audiopath="audio_37.mp3" audiotext="Adjust the Course knob till the objective is focused."></Content>
+						
+						<Content audiopath="audio_38.mp3" audiotext="Adjust the fine tune knob to fine tune the focus, till the red dot near the focus screen changes to green."></Content>
+						
+						<Content audiopath="audio_39.mp3" audiotext="Adjust the coarse knob slightly. "></Content>
+						
+						<Content audiopath="audio_40.mp3" audiotext="Turn the objective to 40X magnification."></Content>
+						
+						<Content audiopath="audio_41.mp3" audiotext="Adjust the Course knob till the objective is focused."></Content>
+						
+						<Content audiopath="audio_42.mp3" audiotext="Adjust the fine tune knob to fine tune the focus till the red dot near the focus screen changes to green."></Content>
+						
+						<Content audiopath="audio_43.mp3" audiotext="."></Content>
+						
+						<Content audiopath="audio_44.mp3" audiotext="Hope this demo was interesting and also provided you informations on how to prepare the plant anatomy temporary slide."></Content>
+                       				                   
+ 		</Audio>
+</root>

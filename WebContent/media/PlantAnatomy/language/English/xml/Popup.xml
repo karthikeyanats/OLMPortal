@@ -1,0 +1,20 @@
+<root>
+<popup>
+<op1> Please adjust coarse Knob to get the clear Image </op1>
+<op2> Please adjust fine Knob to get the clear Image </op2>
+<op3>You have got the clear image of the specimen. Now adjust the coarse knob to bring the stage below and keep the magnification at 40x.</op3>
+<op4>You have got the clear image of the specimen.</op4>
+<op5>four</op5>
+</popup>
+<popup>
+<msgop>Message</msgop>
+</popup>
+<popup>
+<magop1>Magnification:--</magop1>
+<magop2>Magnification:10x</magop2>
+<magop3>Magnification:40x</magop3>
+<magop4>Magnification:100x</magop4>
+</popup>
+
+</root>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+		<Audio>
+			<Content audiopath="audio_1.mp3" audiotext="Welcome students to the experiment, Focal length of a Convex Mirror - System guided lab simulation. "></Content>
+			
+			<Content audiopath="audio_2.mp3" audiotext="The aim of this experiment is;"></Content>
+			
+			<Content audiopath="audio_3.mp3" audiotext="To find the focal length of a convex mirror using a convex lens of known focal length."></Content>
+			
+			<Content audiopath="audio_4.mp3" audiotext="To begin with, Drag the convex lens from the shelf  to the work area. "></Content>
+			
+			<Content audiopath="audio_5.mp3" audiotext="Drag the illuminated object from the shelf area to the work area."></Content>
+			
+			<Content audiopath="audio_6.mp3" audiotext="Drag the Screen to the work area."></Content>
+			
+			<Content audiopath="audio_7.mp3" audiotext="Using the mouse switch on the bulb inside the object box."></Content>
+			
+			<Content audiopath="audio_8.mp3" audiotext="Drag the Scale from the shelf area to the work area."></Content>
+			
+			<Content audiopath="audio_9.mp3" audiotext="Adjust the distance between the convex lens and illuminated object to be 26 cm."></Content>
+			
+			<Content audiopath="audio_10.mp3" audiotext="Adjust the distance between the screen and the convex lens to get a well defined image of the object."></Content>
+			
+			<Content audiopath="audio_11.mp3" audiotext="Move the scale to measure the distance between the convex lens and the screen."></Content>
+			
+			<Content audiopath="audio_12.mp3" audiotext="Click on the Table icon to display the Table screen. "></Content>
+			
+			<Content audiopath="audio_13.mp3" audiotext="Enter the noted distance in the given slot.  "></Content>
+			
+			<Content audiopath="audio_14.mp3" audiotext="Click on the Check button.  "></Content>
+			
+	                <Content audiopath="audio_15.mp3" audiotext="The Next button is enabled. "></Content>
+					
+                        <Content audiopath="audio_16.mp3" audiotext="Click on the Next button."></Content>
+						
+                        <Content audiopath="audio_17.mp3" audiotext="Bring the convex mirror from the shelf area to the work area and place it in-between the convex lens and the screen."></Content>
+						
+                        <Content audiopath="audio_18.mp3" audiotext="Adjust the convex mirror alone to get a well defined image by the side of the object."></Content>
+						
+                        <Content audiopath="audio_19.mp3" audiotext="Measure the distance between the screen and the convex mirror which is the radius of curvature of the convex mirror."></Content>
+						
+                        <Content audiopath="audio_20.mp3" audiotext="Click on the Table icon to display the Table screen."></Content>
+						
+                        <Content audiopath="audio_21.mp3" audiotext="Enter the noted distance in the given slot."></Content>
+						
+                        <Content audiopath="audio_22.mp3" audiotext="Click on the Check button."></Content>
+						
+                        <Content audiopath="audio_23.mp3" audiotext="Click on the Previous button. "></Content>
+						
+                        <Content audiopath="audio_24.mp3" audiotext="Change the distance between the lens and the object as 28 centimeters and find the corresponding distance between the lens and the screen."></Content>
+						
+                        <Content audiopath="audio_25.mp3" audiotext="Note the Radius of curvature of the Convex Mirror in this case."></Content>
+						
+                        <Content audiopath="audio_26.mp3" audiotext="Repeat the same steps by changing the distance between the lens and the object as 30 cm and find the other values  "></Content>
+						
+                        <Content audiopath="audio_27.mp3" audiotext="Calculate the Mean Radius of curvature and enter it in the given slot."></Content>
+						
+                        <Content audiopath="audio_28.mp3" audiotext="Click on the Check button."></Content>
+						
+                        <Content audiopath="audio_29.mp3" audiotext="Applying the given formula, calculate the focal length of the convex mirror and enter it in the given slot."></Content>
+						
+						<Content audiopath="audio_30.mp3" audiotext="Click on the Check button."></Content>
+						
+						<Content audiopath="audio_31.mp3" audiotext=".."></Content>
+						
+						<Content audiopath="audio_32.mp3" audiotext="Hope this demo was interesting and also enabled you to learn how to find the focal length of a convex mirror using a convex lens of known focal length."></Content>
+						
+						
+						
+						                        					
+                       				                   
+ 		</Audio>
+</root>

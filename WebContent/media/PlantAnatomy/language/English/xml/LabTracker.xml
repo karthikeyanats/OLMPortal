@@ -1,0 +1,21 @@
+﻿<labtools>
+	<Progress applicable="true" appliedPercentage="0" name="Progress">Progress</Progress>
+	<Instruction applicable="true" appliedPercentage="5" name="instructionBtn">Instruction</Instruction>
+	<Help applicable="false" appliedPercentage="5" name="helpBtn">Help</Help>
+	<Parts applicable="false" appliedPercentage="5" name="partsBtn">Parts</Parts>
+	<Magnifier applicable="false" appliedPercentage="5" name="maganiferBtn">Magnifier</Magnifier>
+	<Delete applicable="false" appliedPercentage="5" name="deleteBtn">Delete</Delete>
+	<RetriveButton applicable="false" appliedPercentage="5" name="retrieveBtn">Retrive</RetriveButton>
+	<Table applicable="false" appliedPercentage="5" name="tableBtn">Table</Table>
+	<AboutMeButton applicable="false" appliedPercentage="5" name="aboutproductBtn">About me</AboutMeButton>
+	<PointPonder applicable="true" appliedPercentage="5" name="eye2">PointPonder</PointPonder>
+	<DemoButton applicable="false" appliedPercentage="5" name="demoBtn">Demo</DemoButton>
+	<DemoLayoutFunctionality applicable="false" appliedPercentage="5" name="video1">layout</DemoLayoutFunctionality>
+	<DemoLabSimulation applicable="true" appliedPercentage="5" name="video2">DemoLabSimulation</DemoLabSimulation>
+	<Next applicable="false" appliedPercentage="5" name="nextBtn">Next</Next>
+	<Store applicable="false" appliedPercentage="5" name="storeBtn">Store</Store>
+	<Previous applicable="false" appliedPercentage="5" name="previewBtn">Previous</Previous>
+	<Reset applicable="false" appliedPercentage="5" name="resetBtn">Reset</Reset>
+	<Graph applicable="false" appliedPercentage="5" name="graphBtn">Graph</Graph>
+	<testPer applicable="false" appliedPercentage="85" name="testPer">testPer</testPer>
+</labtools>

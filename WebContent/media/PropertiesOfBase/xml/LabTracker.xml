@@ -1,0 +1,29 @@
+﻿<labtools>
+	<buttons>
+	<Progress applicable="true" appliedPercentage="0" name="Progress">Progress</Progress>
+	<Introduction applicable="false" appliedPercentage="5" name="introBtn">Introduction</Introduction>
+	<Procedure applicable="true" appliedPercentage="5" name="procedureBtn">Procedure</Procedure>
+	<Observation applicable="false" appliedPercentage="5" name="observaBtn">Observation</Observation>
+	<TestList applicable="false" appliedPercentage="5" name="showTestBtnFocus">TestList </TestList>
+	<StoreButton applicable="false" appliedPercentage="5" name="saveBtn">Store</StoreButton>
+	<RetriveButton applicable="false" appliedPercentage="5" name="iterationSymbolBtn">Retrive</RetriveButton>
+	<ResetButton applicable="false" appliedPercentage="5" name="clearIterationBtn">Reset</ResetButton>
+	<AboutMeButton applicable="false" appliedPercentage="5" name="aboutBtn">About me</AboutMeButton>
+	<PointPonder applicable="true" appliedPercentage="5" name="eye1">PointPonder</PointPonder>
+	<DemoButton applicable="false" appliedPercentage="5" name="demoBtn">Demo</DemoButton>
+	<DemoLayoutFunctionality applicable="false" appliedPercentage="5" name="video1">DemoLayoutSimulation</DemoLayoutFunctionality>
+	<DemoLabSimulation applicable="false" appliedPercentage="5" name="video2">DemoLabSimulation</DemoLabSimulation>
+	<NoteReading applicable="false" appliedPercentage="5" name="noteReadingBtn">NoteReading</NoteReading>
+	<Notepad applicable="false" appliedPercentage="5" name="notepadBtn">Notepad</Notepad>
+	<Magnification applicable="false" appliedPercentage="5" name="magnificationBtn">Magnification</Magnification>
+	<AssembleApparatus applicable="false" appliedPercentage="5" name="assembleBtn">Assemble</AssembleApparatus>
+	<FillButton applicable="false" appliedPercentage="5" name="fillBtn">Fill</FillButton>
+	<TimerButton applicable="false" appliedPercentage="5" name="clockBtn">Timer</TimerButton>
+	<InvertButton applicable="false" appliedPercentage="5" name="invertBtn">Invert</InvertButton>
+	<PreparationButton applicable="false" appliedPercentage="5" name="preparationBtn1">Preparation</PreparationButton>
+	</buttons>
+	<test id="1" appliedPercentage="23"/>
+	<test id="2" appliedPercentage="23"/>
+	<test id="3" appliedPercentage="22"/>
+	<test id="4" appliedPercentage="22"/>
+</labtools>

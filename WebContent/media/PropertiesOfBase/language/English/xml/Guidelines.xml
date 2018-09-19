@@ -1,0 +1,94 @@
+﻿<Experiments>
+
+	<Experiment id="1" name="Reaction with Blue Litmus solution">
+		<Steps>
+			<Step id="1" >- Reaction with Blue Litmus solution</Step>
+			<Step id="1" >- Place the sodium hydroxide bottle(Bases tab), blue litmus solution(Solutions tab), dropper(Apparatus tab)</Step>
+			<Step id="1" > and test tube stand(Apparatus tab)to the work area.</Step>
+			<Step id="2" >- Place the test tube from the test tube stand.</Step>
+			<Step id="3" >- Select the blue litmus solution, click on the fill icon menu and select 2 ml.</Step>
+			<Step id="4" >- Place the test tube near to the blue litmus solution.</Step>
+			<Step id="5" >- You will observe that the solution is added to the test tube.</Step>
+			<Step id="6" >- Place the dropper in sodium hydroxide and click on the knob.</Step>
+			<Step id="7" >- You will observe that the base is transferred upto the mark in the dropper.</Step>
+			<Step id="8" >- Now place the dropper in the test tube.</Step>
+			<Step id="9" >- Click on the knob in the dropper(4 times) for transfering of base into the test tube.</Step>
+			<Step id="10" >- Click on the test tube for shaking.</Step>		
+			<Step id="11" >- Observe the changes.</Step>
+			<Step id="12" >- Click on the test tube and choose the observation.</Step>			
+			<Step id="13" >- Click on the notepad and click submit to ensure your results.</Step>
+			<Step id="13" ></Step>
+		</Steps>
+	</Experiment>
+	
+	<Experiment id="2" name="Reaction with Red Litmus solution">
+		<Steps>
+			<Step id="1" >- Reaction with Red Litmus solution</Step>
+			<Step id="1" >- Place the sodium hydroxide bottle(Bases tab), Red litmus solution (Solutions tab), dropper(Apparatus tab)</Step>
+			<Step id="1" > and test tube stand(Apparatus tab)to the work area.</Step>
+			<Step id="2" >- Place the test tube from the test tube stand.</Step>
+			<Step id="3" >- Select the red litmus solution, click on the fill icon menu and select 2 ml.</Step>
+			<Step id="4" >- Place the test tube near to the red litmus solution.</Step>
+			<Step id="5" >- You will observe that the solution is added to the test tube.</Step>
+			<Step id="6" >- Place the dropper in sodium hydroxide and click on the knob.</Step>
+			<Step id="7" >- You will observe that the base is transferred upto the mark in the dropper.</Step>
+			<Step id="8" >- Now place the dropper in the test tube.</Step>
+			<Step id="9" >- Click on the knob in the dropper(4 times) for transfering of base into the test tube.</Step>
+			<Step id="10" >- Click on the test tube for shaking.</Step>
+			<Step id="11" >- Observe the changes.</Step>
+			<Step id="12" >- Click on the test tube and choose the observation.</Step>			
+			<Step id="13" >- Click on the notepad and click submit to ensure your results.</Step>
+			<Step id="13" ></Step>
+		</Steps>
+	</Experiment>
+	
+	<Experiment id="3" name="Reaction With Zinc Metal">
+		<Steps>
+			<Step id="1" >- Reaction with Zinc metal</Step>
+			<Step id="1" >- Place the test tube stand(Apparatus tab), sodium hydroxide bottle(Bases tab), spatula(Apparatus tab)</Step>
+			<Step id="1" > and granulated zinc bottle(Substances tab) to the work area.</Step>
+ 			<Step id="1" >  Place the test tube from the test tube stand .</Step>
+ 			<Step id="2" >- Using spatula add few pieces of granulated zinc metal to the test tube.</Step>
+			<Step id="3" >- Select the sodium hydroxide bottle, click on the fill icon menu and select 2 ml.</Step>
+			<Step id="4" >- Place the test tube near to the sodium hydroxide.</Step>
+			<Step id="5" >- You will observe that the solution is added to the test tube.</Step>
+			<Step id="6" >- Place the single clamp stand(Apparatus tab), rubber cork(Apparatus tab) and spirit lamp(Apparatus tab)</Step>
+			<Step id="6" > to the work area.</Step>
+			<Step id="7" >- Select the test tube, spirit lamp and the single clamp stand and click on the assemble icon.</Step>
+			<Step id="8" >- You will observe the assembling of the apparatus.</Step>
+			<Step id="9" >- Place the rubber cork on the mouth of the test tube.</Step>
+			<Step id="10" >- Place the delivery tube(Apparatus tab) and the soap solution(Solutions tab) to the work area.</Step>
+			<Step id="11" >- Attach one end of the delivery tube to the test tube and another end to the soap solution.</Step>
+			<Step id="12" >- You will observe the formation of soap bubbles in the soap solution.</Step>
+			<Step id="13" >- Click on the soap solution.</Step>
+			<Step id="14" >- Observe the changes.</Step>
+			<Step id="15" >- Click on the bubble and choose the observation.</Step>
+			<Step id="16" >- Click on the notepad and click submit to ensure your results.</Step>
+		</Steps>
+	</Experiment>
+
+	<Experiment id="4" name="Reaction with Hydrochloric acid">
+		<Steps>
+			<Step id="1" >- Reaction with Hydrochloric acid</Step>
+			<Step id="1" >- Place the test tube stand(Apparatus tab), dropper(Apparatus tab), sodium hydroxide bottle(Bases tab),</Step>
+			<Step id="1" > dil.HCl(Acids tab), phenolphthalein solution(Solutions tab) to the work area.</Step>
+			<Step id="1" > Place the test tube from the test tube stand.</Step>
+			<Step id="2" >- Select the sodium hydroxide bottle, click on the fill icon menu and select 2 ml.</Step>
+			<Step id="3" >- Place the test tube near to the sodium hydroxide.</Step>
+			<Step id="4" >- You will observe that the solution is added to the test tube.</Step>
+			<Step id="5" >- Place the dropper in the phenolphthalein bottle and click on the knob.</Step>
+			<Step id="6" >- You will observe that the solution is transferred upto the mark in the dropper.</Step>
+			<Step id="7" >- Now place the dropper in the test tube.</Step>
+			<Step id="8" >- Click on the dropper(2 times) for transfering of phenolphthalein into the tube as a drop.</Step>
+			<Step id="9" >- Observe the changes in the test tube.</Step>
+			<Step id="10" >- Place the dropper in the dil.HCl bottle and click on the knob.</Step>
+			<Step id="11" >- You will observe that the acid is transferred upto the mark in the dropper.</Step>
+			<Step id="12" >- Now place the dropper in the test tube.</Step>
+			<Step id="13" >- Click on the dropper(2 times) for transfering of dil.HCl into the test tube as a drop.</Step>
+			<Step id="14" >- Observe the changes in the test tube.</Step>	
+			<Step id="15" >- Click on the test tube and choose the observation.</Step>			
+			<Step id="16" >- Click on the notepad and click submit to ensure your results.</Step>
+			<Step id="16" ></Step>	
+		</Steps>
+	</Experiment>
+</Experiments>

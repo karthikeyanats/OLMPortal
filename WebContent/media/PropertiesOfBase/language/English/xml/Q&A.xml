@@ -1,0 +1,40 @@
+﻿<QA>
+	<rows>3</rows>
+	<columns>4</columns>
+	<numofsquares>10</numofsquares>
+	<eyesx>670</eyesx>
+	<eyesy>4</eyesy>
+	<eyeswidth>15</eyeswidth>
+	<eyesheight>15</eyesheight>
+	
+	<Headings>
+		<mainqnhead>Pick your Question</mainqnhead>
+		<qnhead>Question</qnhead>
+		<anshead>Answer</anshead>
+		<fontsize>11</fontsize>
+	</Headings>
+	
+	<Questions>
+		<q><![CDATA[1. What is the effect of sodium hydroxide on litmus?]]></q>
+		<a><![CDATA[Sodium hydroxide changes red litmus to blue, but it does not affect blue litmus.]]></a>
+		<q><![CDATA[2. Why should we handle sodium hydroxide carefully?]]></q>
+		<a><![CDATA[It is because sodium hydroxide  is a corrosive substance and it burns when it comes in contact with skin or eyes.]]></a>
+		<q><![CDATA[3. Which bases are alkali?]]></q>
+		<a><![CDATA[The bases which are soluble in water are called alkalies.]]></a>
+		<q><![CDATA[4. When a few drops of phenolphthalein is added to a dilute solution of sodium hydroxide, what will be the colour of the solution?]]></q>
+		<a><![CDATA[Pink.]]></a>
+		<q><![CDATA[5. What is the role of phenolphthalein in chemistry?]]></q>
+		<a><![CDATA[It is used as an acid-base indicator, which indicates the completion of the reaction between an acid and a base.]]></a>
+		<q><![CDATA[6. What is the gas liberated when zinc metal reacts with a dilute solution of sodium hydroxide?]]></q>
+		<a><![CDATA[Hydrogen gas.]]></a>
+		<q><![CDATA[7. Why hydrogen gas burns in a candle?]]></q>
+		<a><![CDATA[This is because hydrogen gas is highly flammable.]]></a>
+		<q><![CDATA[8. What are the compounds which possess basic property, yet behave as a catalyst?]]></q>
+		<a><![CDATA[Metal oxides like magnesium oxide, calcium oxide etc.]]></a>
+		<q><![CDATA[9. Sodium hydroxide is a strong base. Why?]]></q>
+		<a><![CDATA[ This is because sodium hydroxide gets completely ionized to sodium and hydroxide ions in water.]]></a>
+		<q><![CDATA[10. What is the application of the reaction of zinc metal with sodium hydroxide?]]></q>
+		<a><![CDATA[This reaction is mainly used in the manufacture of alloys.]]></a>
+	</Questions>
+
+</QA>

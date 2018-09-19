@@ -1,0 +1,26 @@
+﻿<labtools>
+	<buttons>
+	<Progress applicable="true" appliedPercentage="0" name="Progress">Progress</Progress>
+	<Introduction applicable="true" appliedPercentage="5" name="instructionBtn">Introduction</Introduction>
+	<Procedure applicable="false" appliedPercentage="5" name="procedureBtn">Procedure</Procedure>
+	<Observation applicable="false" appliedPercentage="5" name="observaBtn">Observation</Observation>
+	<TestList applicable="false" appliedPercentage="5" name="Procedure2">TestList </TestList>
+	<StoreButton applicable="false" appliedPercentage="5" name="Procedure3">Store</StoreButton>
+	<RetriveButton applicable="false" appliedPercentage="5" name="Procedure4">Retrive</RetriveButton>
+	<ResetButton applicable="false" appliedPercentage="5" name="Procedure5">Reset</ResetButton>
+	<AboutMeButton applicable="false" appliedPercentage="5" name="Procedure6">About me</AboutMeButton>
+	<PointPonder applicable="true" appliedPercentage="5" name="eye1">PointPonder</PointPonder>
+	<DemoButton applicable="false" appliedPercentage="5" name="Procedure22">Demo</DemoButton>
+	<DemoLayoutFunctionality applicable="false" appliedPercentage="5" name="Procedure33">layout</DemoLayoutFunctionality>
+	<DemoLabSimulation applicable="false" appliedPercentage="5" name="video_btn2">DemoLabSimulation</DemoLabSimulation>
+	<NoteReading applicable="false" appliedPercentage="5" name="Procedure555">NoteReading</NoteReading>
+	<Notepad applicable="false" appliedPercentage="5" name="notepadBtn">Notepad</Notepad>
+	<Magnification applicable="false" appliedPercentage="5" name="Procedure344">Magnification</Magnification>
+	<AssembleApparatus applicable="false" appliedPercentage="5" name="Procedure543">Assemble</AssembleApparatus>
+	<FillButton applicable="false" appliedPercentage="5" name="Procedure35343">Fill</FillButton>
+	<TimerButton applicable="false" appliedPercentage="5" name="Procedure645">Timer</TimerButton>
+	<InvertButton applicable="false" appliedPercentage="5" name="Procedure567">Invert</InvertButton>
+	<PreparationButton applicable="false" appliedPercentage="5" name="Procedure575">Preparation</PreparationButton>
+	</buttons>
+	<test id="1" appliedPercentage="90"/>	
+</labtools>

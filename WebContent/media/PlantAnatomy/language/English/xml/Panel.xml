@@ -1,0 +1,142 @@
+﻿
+<panel size = '14'  color='0x000000' align='center'>	
+
+	<lab_name size='18' color='0xFFFFFF' align='left'>Preparation of plant anatomy temporary slide</lab_name>
+	
+	<!--                  MENU BAR               -->
+	
+	<group  size='12' align='center'>
+
+		<instruction_label_on_manubar>Instructions</instruction_label_on_manubar>
+		<help_label_on_manubar>Help</help_label_on_manubar>
+		<parts_label_on_manubar>Parts</parts_label_on_manubar>
+		<maganifer_label_on_manubar>Maganifer</maganifer_label_on_manubar>
+		<delete_label_on_manubar>Delete</delete_label_on_manubar>
+		<table_label_on_manubar>Table</table_label_on_manubar>
+		<next_label_on_manubar>Next</next_label_on_manubar>
+		<reset_label_on_manubar>Reset</reset_label_on_manubar>
+		<prev_label_on_manubar>Priview</prev_label_on_manubar>
+		<record_label_on_manubar>Record</record_label_on_manubar>
+		<retrieve_label_on_manubar>Retrieve</retrieve_label_on_manubar>
+		<demo_label_on_manubar>Demo</demo_label_on_manubar>
+		<about_label_on_manubar>About Product</about_label_on_manubar>
+		<graph_label_on_manubar>Graph</graph_label_on_manubar>
+		
+		<ok_btn_in_alertbox>OK</ok_btn_in_alertbox>
+	</group>
+	
+	<!--                 POP UP WINDOW              -->
+	
+	<group size='14' align='left' color='0xFFFFFF' bold='true'>		
+		<alert_titlelabel>Help</alert_titlelabel>
+		<help_titlelabel>Help</help_titlelabel>
+		<instruction_title >Instructions</instruction_title>
+		<resetpopup_titlelabel>Restart</resetpopup_titlelabel>
+		<demo_popup_title>Demo</demo_popup_title>
+		<cong_popup_titlelabel>Congratulations</cong_popup_titlelabel>		
+	</group>
+	
+	<loader_popup_closelabel bold='true'>Close</loader_popup_closelabel>
+	<demo_popup_layout_btn>Layout functionality</demo_popup_layout_btn>
+	<demo_popup_lab_btn>Lab simulation</demo_popup_lab_btn>
+	
+	<resetpopup_message>Want to restart</resetpopup_message>
+	<resetpopup_nolabel>No</resetpopup_nolabel>
+	<resetpopup_yeslabel>Yes</resetpopup_yeslabel>
+
+
+
+
+
+	<!--                       UV Table design                          -->
+	
+	<group size='12' bold='true'>
+	
+	<check_btn align='center' size='12'>Check</check_btn>
+	
+	<cm_uint_table><![CDATA[  ]]></cm_uint_table>
+	
+	<m_uint_table> </m_uint_table>
+	
+		
+
+
+
+	<uv_table_title size= '15' color='0xFFFFFF'>Table</uv_table_title>
+	
+	<s_no>Trial</s_no>
+	
+	<v_cm><![CDATA[Intial level of sugar solution h1(mm)]]></v_cm>
+	<u_cm><![CDATA[Final level of sugar solution h2(mm) ]]></u_cm>
+	
+	<Ratio_r><![CDATA[Difference = h2-h1 ]]></Ratio_r>	
+	<e1_e><![CDATA[    ]]></e1_e>
+		
+	
+	<f_equal></f_equal>
+
+
+
+	
+	<uv_formula> <![CDATA[     ]]> </uv_formula>
+	
+	<focal_length bold='false'> </focal_length>
+
+	<e1 bold='false'> = </e1>
+	
+	</group>
+
+
+
+
+
+	<!--                      SHELF               -->
+	
+	<group size='12' align='center' color='0xFFFFFF' bold='true'>
+	
+	<tag1_shelf >Specimen</tag1_shelf>
+
+	<tag2_shelf>Watchglass</tag2_shelf>
+
+	<tag3_shelf>Blade</tag3_shelf>
+
+	<tag4_shelf>Glass slide</tag4_shelf>
+
+	<tag5_shelf>Safranin</tag5_shelf>
+	
+	<tag6_shelf>Dropper</tag6_shelf>	
+
+	<tag7_shelf>Brush</tag7_shelf>
+
+	<tag8_shelf>Glycerine</tag8_shelf>
+
+	<tag9_shelf>Cover slip</tag9_shelf>
+
+	<tag10_shelf>Needle</tag10_shelf>
+
+	<tag11_shelf>Microscope</tag11_shelf>
+
+	<tag12_shelf></tag12_shelf>
+
+	</group>	
+	
+	
+	<!--                      CONGRAULATION              -->
+	
+	<cong_popup_message align='left' color='0x000000' >
+	<![CDATA[Congratulations, 
+	You have successfully completed prepration of plant anatomy temporary slide.
+	]]>
+	</cong_popup_message>
+
+	<!--                     LAB MEDIA FILE             -->
+	<!--                    MICRO SCOPE ALERT DISPLAY           -->
+
+	<micro_alertbox_title align='left' color='0xFFFFFF' bold='true' >Message</micro_alertbox_title>
+	<micro_alertbox_content align='left' ><![CDATA[Please adjust fine knob to get the clear Image]]></micro_alertbox_content>
+	<micro_alertbox_content1 align='left' ><![CDATA[You have got the clear image of the specimen. Now adjust the coarse knob to bring the stage below and keep the magnificationat 40X.]]></micro_alertbox_content1>
+     <micro_tooltip>Magnification</micro_tooltip>
+
+
+	
+</panel>

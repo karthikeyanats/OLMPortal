@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+		<Audio>
+			<Content audiopath="audio_1.mp3" audiotext="Welcome students, to the experiment – 'To prepare plant anatomy temporary slide' - system guided learning session."></Content>
+			
+			<Content audiopath="audio_2.mp3" audiotext="In this session you will be guided to;"></Content>
+			
+			<Content audiopath="audio_3.mp3" audiotext="Navigate through the various features of this screen."></Content>
+			
+			<Content audiopath="audio_4.mp3" audiotext="This should equip you with the knowledge essential to perform the simulation effectively."></Content>
+			
+			<Content audiopath="audio_5.mp3" audiotext="In the welcome screen, the demo icon prompts you to click on it first."></Content>
+			
+			<Content audiopath="audio_6.mp3" audiotext="If you click anywhere else on the screen this prompt disappears."></Content>
+			
+			<Content audiopath="audio_7.mp3" audiotext="The left segment of the screen, which is referred as the shelf area has the equipments, needed for this experiment."></Content>
+			
+			<Content audiopath="audio_8.mp3" audiotext="The simulation is performed on the right segment of the screen, which is referred as the work area."></Content>
+			
+			<Content audiopath="audio_9.mp3" audiotext="Items from the shelf area can be dragged and dropped on the work area."></Content>
+			
+			<Content audiopath="audio_10.mp3" audiotext="On the top of the screen, you can locate a row of icons. "></Content>
+			
+			<Content audiopath="audio_11.mp3" audiotext="Icons which are applicable to this experiment are, Instructions,"></Content>
+			
+			<Content audiopath="audio_12.mp3" audiotext="Help, "></Content>
+			
+			<Content audiopath="audio_13.mp3" audiotext="Reset,"></Content>
+			
+			<Content audiopath="audio_14.mp3" audiotext="Demo"></Content>
+			
+	        <Content audiopath="audio_15.mp3" audiotext="and About product."></Content>
+					
+            <Content audiopath="audio_16.mp3" audiotext="Click on About Product icon to know about the experiment version, functionality aspects and the best screen resolution to view and perform the demo."></Content>
+						
+            <Content audiopath="audio_17.mp3" audiotext="Click on Instructions, to display the instructions to the students."></Content>
+						
+            <Content audiopath="audio_18.mp3" audiotext="You must to go through this carefully before you proceed with the simulation."></Content>
+						
+            <Content audiopath="audio_19.mp3" audiotext="This will guide you thoroughly on how to perform the simulation."></Content>
+						
+            <Content audiopath="audio_20.mp3" audiotext="Application is enabled with a help option to assist you, just in case you encounter any difficulty during your simulation."></Content>
+						
+            <Content audiopath="audio_21.mp3" audiotext="At this juncture, click on Help."></Content>
+						
+            <Content audiopath="audio_22.mp3" audiotext="What you should do next, will appear as a message."></Content>
+						
+            <Content audiopath="audio_23.mp3" audiotext="Click on Reset, to clear the selected items from the screen, enabling you to begin the simulation from the beginning."></Content>
+						
+            <Content audiopath="audio_24.mp3" audiotext="You can view demos on the screen features of this application and how to perform the simulation by clicking on Demo."></Content>
+						
+            <Content audiopath="audio_25.mp3" audiotext="These demos will illustrate the screen features of this application and also will guide you how to perform the simulation using model data."></Content>
+						
+            <Content audiopath="audio_26.mp3" audiotext="The learning session ends here."></Content>
+						
+            <Content audiopath="audio_27.mp3" audiotext="Hope this learning session was interesting and also provided you informations on the layout features of the screen pertaining to this experiment - To prepare plant anatomy temporary slide."></Content>
+						
+                                             					
+                    			                    
+ 		</Audio>
+
+</root>

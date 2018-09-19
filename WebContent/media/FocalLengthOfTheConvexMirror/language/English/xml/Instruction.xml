@@ -1,0 +1,20 @@
+﻿<root_path>
+<instructions size='14' color ='0x000000'><![CDATA[
+<b>Aim:</b>
+
+To find the focal length of a convex mirror using a convex lens of known focal length.
+1. A convex lens of known focal length (say f' =15cm) is taken..
+2. The convex lens is placed at a distance of 26 cm (2f' - 4)  from the illuminated object.
+3. The position of the screen from the convex lens alone is adjusted to get a well defined image of the object. The size of the image is enlarged.
+4. The distance between the object and convex lens is measured and entered in the table.
+5. The distance between the convex lens and screen is measured and entered in the table.
+6. The convex mirror is now placed between the convex lens and the 	screen such that the reflecting side is pointing towards the illuminated 	object.
+7. The position of the convex mirror alone is adjusted so that a well defined image is formed by the side of the object itself.
+8. The distance between the convex mirror and the screen gives the radius of curvature, R of the convex mirror.
+   The value of R is entered in the table.
+9. The experiment is repeated by changing the distance between the convex lens and illuminated object as 28 cm and 30 cm. The value of R is determined in each case and entered in the table.
+10.The mean value of R is calculated and entered in the table.
+11.The focal length of the convex mirror, f  is given by R/2. 
+
+]]></instructions>
+</root_path>

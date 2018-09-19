@@ -1,0 +1,99 @@
+﻿
+<panel size = '14'  color='0x000000' align='center'>	
+
+	<lab_name size='18' color='0xFFFFFF' align='left'>Focal Length of Convex Mirror</lab_name>
+	
+	<!--                  MENU BAR               -->
+	
+	<group  size='12' align='center'>
+
+		<instruction_label_on_manubar>Instructions</instruction_label_on_manubar>
+		<help_label_on_manubar>Help</help_label_on_manubar>
+		<parts_label_on_manubar>Parts</parts_label_on_manubar>
+		<maganifer_label_on_manubar>Maganifer</maganifer_label_on_manubar>
+		<delete_label_on_manubar>Delete</delete_label_on_manubar>
+		<table_label_on_manubar>Table</table_label_on_manubar>
+		<next_label_on_manubar>Next</next_label_on_manubar>
+		<reset_label_on_manubar>Reset</reset_label_on_manubar>
+		<prev_label_on_manubar>Previous</prev_label_on_manubar>
+		<record_label_on_manubar>Record</record_label_on_manubar>
+		<retrieve_label_on_manubar>Retrieve</retrieve_label_on_manubar>
+		<demo_label_on_manubar>Demo</demo_label_on_manubar>
+		<about_label_on_manubar>About Product</about_label_on_manubar>
+		<graph_label_on_manubar>Graph</graph_label_on_manubar>
+		
+		<ok_btn_in_alertbox>OK</ok_btn_in_alertbox>
+	</group>
+	
+	<!--                 POP UP WINDOW              -->
+	
+	<group size='14' align='left' color='0xFFFFFF' bold='true'>		
+		<alert_titlelabel>Help</alert_titlelabel>
+		<help_titlelabel>Help</help_titlelabel>
+		<instruction_title >Instructions</instruction_title>
+		<resetpopup_titlelabel>Reset</resetpopup_titlelabel>
+		<demo_popup_title>Demo</demo_popup_title>
+		<cong_popup_titlelabel>Congratulations</cong_popup_titlelabel>		
+	</group>
+	
+	<loader_popup_closelabel bold='true'>Close</loader_popup_closelabel>
+	<demo_popup_layout_btn>Layout functionality</demo_popup_layout_btn>
+	<demo_popup_lab_btn>Lab simulation</demo_popup_lab_btn>
+	
+	<resetpopup_message>Want to reset</resetpopup_message>
+	<resetpopup_nolabel>No</resetpopup_nolabel>
+	<resetpopup_yeslabel>Yes</resetpopup_yeslabel>
+
+
+	<!--                      SHELF               -->
+	
+	<group size='12' align='center' color='0xFFFFFF' bold='true'>	
+	<tag1_shelf >Screen</tag1_shelf>
+
+	<tag2_shelf>Convex mirror</tag2_shelf>
+
+	<tag3_shelf>Convex lens</tag3_shelf>
+
+	<tag4_shelf>Illuminated object</tag4_shelf>
+
+	<tag5_shelf>Scale</tag5_shelf>
+
+	
+	</group>	
+	
+	
+	<!--                      CONGRAULATION              -->
+	
+	<cong_popup_message align='left' color='0x000000' >
+	<![CDATA[Congratulations, 
+	You have successfully calculated the Radius of curvature and focal length of the convex mirror.
+	]]>
+	</cong_popup_message>
+	
+	
+	<!--                           Table Design                                                -->
+	<group size='10' bold='true'>
+	<check1 align='center' size='12'>Check</check1>
+	<check2 align='center' size='12'>Check</check2>
+	<check3 align='center' size='12'>Check</check3>
+	<check4 align='center' size='12'>Check</check4>
+	<check5 align='center' size='12'>Check</check5>
+	<check6 align='center' size='12'>Check</check6> 
+	<check7 align='center' size='12'>Check</check7>
+	<check8 align='center' size='12'>check</check8>
+	<table_title size='14' color='0xFFFFFF'   bold='true'>Table</table_title>
+	<s_no> size='08'bold='true'>S.No</s_no>
+	<focal_length align='right' bold='false'>Mean Radius of curvature(R)=</focal_length>
+	<focal_length1 align='right'bold='false'>Focal length of the convex mirror(f=R/2)=</focal_length1>
+	<v_cm size='08' bold='true'><![CDATA[Distance between lens&screen<br>(cm)]]></v_cm>
+	<u_cm size='08' bold='true'><![CDATA[Distance between object&lens<br>(cm)]]></u_cm>
+	<radius size='08' bold='true'><![CDATA[Radius of curvature of the Convex Mirror<br>(cm)]]></radius>
+	</group>
+	
+	
+	
+	
+	
+	
+	
+</panel>

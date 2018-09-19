@@ -1,0 +1,6 @@
+#!/bin/sh
+if  ps -p $1 >&- ; then
+  echo running
+else
+  echo not running
+fi

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx.xsd
+          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	<context:annotation-config />
+	<context:component-scan base-package="com.igrandee.core.person.service" />
+	<context:component-scan base-package="com.igrandee.core.contact.service" />
+	<context:component-scan base-package="com.igrandee.core.organization.service" />
+	<context:component-scan base-package="com.igrandee.core.login.service" />
+	<context:component-scan base-package="com.igrandee.product.ecloud" />
+	<context:component-scan base-package="com.igrandee.product.satutil.service" />
+	
+	<bean id="validator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
+
+
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:database.properties</value>
+			    <value>classpath:application.properties</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan">
+			<list>
+				<value>com.igrandee.product.ecloud.model</value>
+				<value>com.igrandee.core.login.model</value>
+				<value>com.igrandee.core.contact.model</value>
+				<value>com.igrandee.core.person.model</value>
+				<value>com.igrandee.core.organization.model</value>
+				<value>com.igrandee.product.satutil.model</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<value>
+				hibernate.hbm2ddl.auto=validate
+				hibernate.connection.autocommit=false
+				hibernate.id.new_generator_mappings=false
+				hibernate.show_sql=true
+			</value>
+		</property>
+	</bean>
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName">
+			<value>${DRIVER}</value>
+		</property>
+		<property name="url">
+			<value>${URL}</value>
+		</property>
+		<property name="username">
+			<value>${USER}</value>
+		</property>
+		<property name="password">
+			<value>${PWD}</value>
+		</property>
+	</bean>
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="facebookFactory" class="org.springframework.social.facebook.connect.FacebookConnectionFactory">
+	    <constructor-arg  value="${facebook.clientId}"/>       
+        <constructor-arg  value="${facebook.clientSecret}"/>
+	</bean>
+	
+	<bean id="googlePlusConnectionFactory" class="com.googlecode.googleplus.core.GooglePlusConnectionFactory">
+	      <constructor-arg  value="${googleplus.clientId}"/>       
+         <constructor-arg  value="${googleplus.clientSecret}"/>	
+	</bean>
+	
+	<bean id="job"	class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+ 		<property name="targetObject" ref="royaltyMasterNotification" />
+		<property name="targetMethod" value="sendEmail" />
+ 	</bean>
+	
+	<bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+   		 <property name="jobDetail" ref="job"/>
+    <!-- run every morning at 7 AM & PM -->
+    	<property name="cronExpression" value="${royalty.expnotification}"/>
+	</bean>
+	
+	<bean id="giftjob"	class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+ 		<property name="targetObject" ref="giftCourseRemainder" />
+		<property name="targetMethod" value="sendRemainderEmail" />
+ 	</bean>
+ 	
+ 	<bean id="giftTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+   		 <property name="jobDetail" ref="giftjob"/>
+   <!--  run every morning at 12 AM -->
+    	<property name="cronExpression" value="${giftcourse.notification}"/>
+	</bean>
+	
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+    <property name="triggers">
+        <list>
+            <ref bean="cronTrigger"/>
+            <ref bean="giftTrigger"/>
+        </list>
+    </property>
+    </bean>
+
+	<tx:annotation-driven transaction-manager="transactionManager"
+		proxy-target-class="true" />
+</beans>
